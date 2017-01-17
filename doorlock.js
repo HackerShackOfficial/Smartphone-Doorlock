@@ -3,8 +3,8 @@
 //*** SMARTPHONE DOORLOCK ***//
 
 // ************* PARAMETERS *************** //
+// 
 // Parameters: unlockedState and lockedState
-//
 // These parameters are in microseconds.
 // The servo pulse determines the degree 
 // at which the horn is positioned. In our
@@ -17,9 +17,18 @@
 // The GPIO pin the signal wire on your servo
 // is connected to
 //
-// Parameter: blynkToke
+// Parameters: buttonPin
+// The GPIO pin the signal wire on your button
+// is connected to. It is okay to have no button connected
+//
+// Parameters: ledPin
+// The GPIO pin the signal wire on your led
+// is connected to. It is okay to have no ledconnected
+//
+// Parameter: blynkToken
 // The token which was generated for your blynk
 // project
+//
 // **************************************** //
 var unlockedState = 1000;
 var lockedState = 2200;
