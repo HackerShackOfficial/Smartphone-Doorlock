@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "blynk-library": "0.0.41",
+    "blynk-library": "0.5.1",
     "onoff": "^1.1.1",
     "pigpio": "^0.4.0"
   }
