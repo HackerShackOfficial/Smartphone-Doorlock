@@ -4,6 +4,12 @@ Doorlock that can be locked or unlocked through your smartphone
 You’ll want to make sure you have [node.js](https://nodejs.org/en/) installed on your Raspberry Pi. Adafruit has a nice guide on their [website](https://learn.adafruit.com/node-embedded-development/installing-node-dot-js).
 
 ## Installation
+If running on Jessie Lite, install pigpio:
+
+```
+sudo apt-get install pigpio
+```
+
 Navigate to the folder you want to clone the repository and type
 
 ```
@@ -16,7 +22,7 @@ Once done cloning, navigate into the folder.
 cd Smartphone-Doorlock
 ```
 
-Install the dependencies
+Install the dependencies (if it fails, delete node_modules and retry without sudo)
 
 ```
 sudo npm install
